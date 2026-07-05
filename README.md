@@ -1,34 +1,23 @@
-# OS-CPU-Scheduling-Bankers-Algorithm
-
-Java implementation of classic Operating System algorithms.
+# OS CPU Scheduling & Banker's Algorithm
 
 ## Overview
+This project was developed as part of the Operating Systems course at Taif University.
 
-This project implements and compares several CPU Scheduling algorithms and the Banker's Algorithm for deadlock avoidance.
-
-## Algorithms Implemented
-
-- First Come First Served (FCFS)
-- Shortest Job First (Non-Preemptive)
-- Priority Scheduling (Non-Preemptive)
-- Priority Scheduling (Preemptive)
-- Round Robin
-- Banker's Algorithm
+The application simulates several CPU Scheduling algorithms and the Banker's Algorithm using Java. It allows users to enter process information and observe scheduling results and system safety analysis.
 
 ## Features
-
-- Calculates Waiting Time (WT)
-- Calculates Turnaround Time (TAT)
-- Displays Gantt Charts
-- Compares Scheduling Algorithms
-- Performs Safe State Detection using Banker's Algorithm
+- First Come First Served (FCFS)
+- Shortest Job First (SJF)
+- Priority Scheduling
+- Round Robin (RR)
+- Banker's Algorithm
+- Java GUI application
 
 ## Technologies
-
 - Java
-- IntelliJ IDEA
-- VS Code
+- Java Swing
+- Operating Systems Concepts
 
-## Author
-
-Sama Alzahrani
+## Course
+Operating Systems – Computer Engineering
+Taif University
